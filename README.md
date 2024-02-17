@@ -1,3 +1,7 @@
+# About
+
+A spritesheet converter for RPGMaker spritesheets that converts the MV format(3 columns) into the XP Format (4 columns) and vice versa
+
 # How to use
 
 First, install the necessary dependencies:

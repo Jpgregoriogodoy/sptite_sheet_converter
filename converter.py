@@ -83,7 +83,7 @@ def convert_image_3to4(file_path):
         # Convert each character separately
         iteration = 0
         for row in range(2):
-            for col in range(4):
+            for col in tqdm(range(4),ncols=100):
                 iteration += 1
                 left_border = col * (width//4)
                 top_border = row * (height // 2)
